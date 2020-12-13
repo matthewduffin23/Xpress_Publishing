@@ -6,7 +6,8 @@ const express = require('express');
 const apiRouter = require('./api/api');
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 80;
+/*const PORT = process.env.PORT || 4000; */
 
 app.use(bodyParser.json());
 app.use(cors());
